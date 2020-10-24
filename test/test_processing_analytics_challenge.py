@@ -1,0 +1,1 @@
+# pytest for porcessing analytics class-functions
