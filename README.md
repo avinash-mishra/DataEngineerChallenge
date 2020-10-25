@@ -156,14 +156,14 @@ only showing top 20 rows
 | 33.04862296581268|     1|   187|   228|   210|
 | 33.92300724051893|     1|   187|   228|    88|
 ```
-> Then trained most popular gradient boosting alogorithm `xgboost` to predict the future session length.
+> Then trained most popular gradient boosting alogorithm `xgboost` and `randomforest` to predict the future session length.
 
 **details are in ml_task2.ipynb**
 
 3. Predict the number of unique URL visits by a given IP
 > similar as task 2 of ML I followed here divided the ip address into 4 parts called octet
 > calculated the unique url count 
-> trained xgboost to predict the unique url visit. 
+> trained `xgboost` and `randomforest` to predict the unique url visit. 
 >
 ```
 +-----------------+------+------+------+------+
